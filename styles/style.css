@@ -1,0 +1,173 @@
+/*html {
+    background-color: #581212;
+}*/
+/*type selectors*/
+body {
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    color: #242424;
+    border-top: 10px solid #242424;
+}
+/*Assets*/
+img {
+    width: 25em;
+    position: relative;
+    float: left;
+}
+header img {
+	position: relative;
+	width: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../assets/title3.jpg");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-color: #530001;
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-container {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+
+/*h6 {
+	margin: 0;
+	padding: 20px;
+	color: rgb(124, 7, 7);
+}*/
+	/*Nav Bar*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li {
+    float: left;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar a:hover {   /* Change the link color to #111 (black) on hover */
+    background-color: #111;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+ }
+
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 20px;
+    color: rgb(124, 7, 7);
+}
+
+h3 {
+    font-size: 1.8em;
+    color: rgb(124, 7, 7);   
+}
+
+p{
+    line-height: 1.4em;
+    padding: 20px;
+}
+
+div {
+    overflow: hidden;
+}
+
+/*id selector*/
+#blog {
+    border-top: 1px dotted #ccc;
+    display: flex;
+}
+/*class selector*/
+.blog-post-left, blog-post-right {
+    border-bottom: 1px dotted #ccc;
+    flex: 50%;
+}
+.blog-post-left {
+    margin-right: 2em;
+}
+.blog-post-right {
+    margin-left: 2em;
+}
+/*attribute  selector*/
+a[href="https://www.youtube.com/channel/UClqvfV2okQC5GkHEuhzxFiw"] {
+    color: #E18728;
+}
+ /*Sign Up*/
+ .signup {
+
+ }
+
+
+.recipe-container {
+    position: relative;
+    width: 25em;
+}
+.recipe-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.recipe-img-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.recipe-container:hover .recipe-image {
+    opacity: 0.3;
+}  
+.recipe-container:hover .recipe-img-text {
+    opacity: 1;
+}
+/*.url-text {
+    background-color: peachpuff;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}*/
+.slideshow {
+	width: 50%;
+	margin: 1em;
+}
+ 
